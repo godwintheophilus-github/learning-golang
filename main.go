@@ -5,12 +5,6 @@ import (
 )
 
 func main() {
-	//maps
-	var x map[string]int = map[string]int{"one": 1, "two": 2, "three": 3}
-	fmt.Println(x)
-	x["four"] = 5
-	fmt.Println(x)
-	//maps in multi-dimensional
-	var y []map[string]int = []map[string]int{{"one": 1, "two": 2, "three": 3}, {"one": 1, "two": 2, "three": 3}}
-	fmt.Println(y)
+	fmt.Println("Hello, World!")
+
 }
